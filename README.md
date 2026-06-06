@@ -84,7 +84,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://avaf4.gith
   - [X] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
 ### Walkthrough Video
-**Walkthrough video:** [Globetrotter Walkthrough]()
+**Walkthrough video:** [Globetrotter Walkthrough](https://www.loom.com/share/53040b87a34c44cca6a887dfe0d651cd)
 
 ### Reflection
 
