@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Johannesburg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" aria-label="Toggle menu">
+        <label for="menu-toggle" class="menu-toggle-button" aria-controls="site-nav">☰</label>
+        <nav id="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture.html">Culture Guide</a></li>
+                <li><a href="packing.html">Packing Tips</a></li>
+                <li><a href="excursions.html">Excursions</a></li>
+                <li><a href="food.html">Food Guide</a></li>
+                <li><a href="attractions.html">Top Attractions</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="header-search" aria-label="Search this guide">
+            <label for="page-search">Search</label>
+            <input id="page-search" type="search" placeholder="Search pages..." />
+        </div>
+        <div class="language-controls">
+            <label for="language-select">Languages</label>
+            <select id="language-select" name="language">
+                <option value="en">English</option>
+                <option value="zu">Zulu</option>
+                <option value="st">Sesotho</option>
+                <option value="tn">Setwana</option>
+                <option value="af">Afrikaans</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section class="hero-banner" aria-label="Johannesburg banner image and introduction">
+            <div class="hero-copy">
+                <h1>Discover Johannesburg, South Africa</h1>
+                <p>
+                    Johannesburg is vibrant, multilingual, and full of energy. This guide helps first-time
+                    visitors from the U.S. get ready for local culture, smart packing, unforgettable
+                    excursions, must-try foods, and iconic sights.
+                </p>
+                <a class="start-button" href="culture.html">Start Exploring</a>
+            </div>
+            <img class="starter-image" src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTNtNxyC-nNcKZZmsHL9i0RIV5GPzsDmL_y00UO1wy4e3OYNyGdCY6TKwCe8RAdSOzgSLibGSwouCM3VGz6dppYUQO0&s=19" alt="Johannesburg skyline">
+        </section>
+
+        <section class="home-grid" aria-label="Homepage highlights">
+            <article class="panel">
+                <h2>Local Phrase</h2>
+                <p><em>"Welkom in Johannesburg"</em> (Afrikaans) means "Welcome to Johannesburg."</p>
+                <p>Expect to hear many languages as you move through neighborhoods across the city.</p>
+            </article>
+
+            <article class="panel">
+                <h2>Why JoBurg?</h2>
+                <p>
+                    This city blends history, creativity, and modern life. From heritage sites to street
+                    markets and lively food scenes, Johannesburg offers something new around every corner.
+                </p>
+            </article>
+        </section>
+        <section class="media-feature" aria-label="Johannesburg video highlight">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/VVGq--UcULQ?si=dGzthHIh9QaQ7sti" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <article class="media-blurb">
+                <h2>Why Johannesburg Stands Out</h2>
+                <p>
+                    Johannesburg is the heartbeat of modern South Africa, where rich history meets bold creativity.
+                    From iconic heritage landmarks to lively neighborhoods full of art, food, and music, the city
+                    offers first-time visitors an unforgettable blend of culture, energy, and discovery.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

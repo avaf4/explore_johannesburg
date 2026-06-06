@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johannesburg Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" aria-label="Toggle menu">
+        <label for="menu-toggle" class="menu-toggle-button" aria-controls="site-nav">☰</label>
+        <nav id="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture.html">Culture Guide</a></li>
+                <li><a href="packing.html">Packing Tips</a></li>
+                <li><a href="excursions.html">Excursions</a></li>
+                <li><a href="food.html">Food Guide</a></li>
+                <li><a href="attractions.html">Top Attractions</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="header-search" aria-label="Search this guide">
+            <label for="page-search">Search</label>
+            <input id="page-search" type="search" placeholder="Search pages..." />
+        </div>
+        <div class="language-controls">
+            <label for="language-select">Languages</label>
+            <select id="language-select" name="language">
+                <option value="en">English</option>
+                <option value="zu">Zulu</option>
+                <option value="st">Sesotho</option>
+                <option value="tn">Setwana</option>
+                <option value="af">Afrikaans</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <h1 class="wireframe-title">Johannesburg Photo Gallery</h1>
+        <section class="gallery-wireframe" aria-label="Photo gallery categories">
+            <h2>Culture Moments</h2>
+            <div class="carousel" data-carousel>
+                <button class="carousel-button" type="button" data-direction="prev" aria-label="Previous culture image">&#10094;</button>
+                <div class="gallery-viewport">
+                    <div class="carousel-track">
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://theincidentaltourist.com/wp-content/uploads/2016/08/mabonenge-art.jpeg" alt="Culture Snapshot Image">
+                            <p class="gallery-caption">Street art and local creativity in Maboneng.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgm4-JK8kqFRQd169wiNMW4gZhDCqQI4YaUQ&s" alt="Culture Snapshot Image">
+                            <p class="gallery-caption">Live music and dance in neighborhood events.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://blog.inyourpocket.com/south-africa/wp-content/uploads/sites/9/2017/03/rosebank-art-and-craft-SMALLER-1024x682.jpg" alt="Culture Snapshot Image">
+                            <p class="gallery-caption">Colorful market scenes with local artwork.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://media.timeout.com/images/106256907/750/562/image.jpg" alt="Culture Snapshot Image">
+                            <p class="gallery-caption">Rooftop city views in Johannesburg's arts districts.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/9a61b6fc915260211560f0cb851a7cf9.jpg" alt="Culture Snapshot Image">
+                            <p class="gallery-caption">Locals dressed in AfroPunk inspired outfits.</p>
+                        </article>
+                    </div>
+                </div>
+                <button class="carousel-button" type="button" data-direction="next" aria-label="Next culture image">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="gallery-wireframe" aria-label="Food gallery category">
+            <h2>Food Favorites</h2>
+            <div class="carousel" data-carousel>
+                <button class="carousel-button" type="button" data-direction="prev" aria-label="Previous food image">&#10094;</button>
+                <div class="gallery-viewport">
+                    <div class="carousel-track">
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://www.thetakeout.com/images/405cb9013a5128413d0fc6c73c840dae.jpg" alt="Food Snapshot Image">
+                            <p class="gallery-caption">Classic bunny chow and modern fusion plates.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOY9V0K9wEF5luwJu2IjR8hqgK8Ont8o3Cg&s" alt="Food Snapshot Image">
+                            <p class="gallery-caption">Braai experiences with shared local sides.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://media.timeout.com/images/106380330/750/422/image.jpg" alt="Food Snapshot Image">
+                            <p class="gallery-caption">Weekend market snacks and fresh bakes.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://thescribsandnibs.com/wp-content/uploads/2023/04/Tea-and-Antiques-Chinese-tea-best-cafe-in-johannesburg-3.jpg" alt="Food Snapshot Image">
+                            <p class="gallery-caption">Cafe culture with specialty coffee and pastries.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://media.timeout.com/images/106295811/750/562/image.jpg" alt="Food Snapshot Image">
+                            <p class="gallery-caption">Neighborhood restaurants with bold local flavors.</p>
+                        </article>
+                    </div>
+                </div>
+                <button class="carousel-button" type="button" data-direction="next" aria-label="Next food image">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="gallery-wireframe" aria-label="Attractions gallery category">
+            <h2>Top Sights</h2>
+            <div class="carousel" data-carousel>
+                <button class="carousel-button" type="button" data-direction="prev" aria-label="Previous attraction image">&#10094;</button>
+                <div class="gallery-viewport">
+                    <div class="carousel-track">
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://images.myguide-cdn.com/johannesburg/companies/constitution-hill/large/constitution-hill-323617.jpg" alt="Attractions Snapshot Image">
+                            <p class="gallery-caption">Constitution Hill and city heritage landmarks.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://cdn.prod.rexby.com/image/ec9144a2ea654383b571bdbd06a4ea27?format=webp&width=1080&height=1350&quality=80" alt="Attractions Snapshot Image">
+                            <p class="gallery-caption">Mandela Square and iconic city architecture.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/13/06/e3/caption.jpg?w=500&h=500&s=1" alt="Attractions Snapshot Image">
+                            <p class="gallery-caption">Nearby nature escapes and scenic day trips.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgzQonfK8e9VJprcaxL1cd-lYuzrLqoZTwg&s" alt="Attractions Snapshot Image">
+                            <p class="gallery-caption">Urban landmarks and public spaces across the city.</p>
+                        </article>
+                        <article class="gallery-tile">
+                            <img class="gallery-images" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/e9/50/23/panorama-route.jpg?w=900&h=500&s=1" alt="Attractions Snapshot Image">
+                            <p class="gallery-caption">Historic routes that tell Johannesburg's story.</p>
+                        </article>
+                    </div>
+                </div>
+                <button class="carousel-button" type="button" data-direction="next" aria-label="Next attraction image">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <script>
+        const carousels = document.querySelectorAll("[data-carousel]");
+
+        carousels.forEach((carousel) => {
+            const track = carousel.querySelector(".carousel-track");
+            const prevButton = carousel.querySelector('[data-direction="prev"]');
+            const nextButton = carousel.querySelector('[data-direction="next"]');
+
+            const scrollByOneCard = (direction) => {
+                const firstCard = track.querySelector(".gallery-tile");
+                if (!firstCard) return;
+
+                const cardWidth = firstCard.getBoundingClientRect().width;
+                const trackGap = parseFloat(getComputedStyle(track).gap) || 0;
+                const scrollAmount = cardWidth + trackGap;
+
+                track.scrollBy({
+                    left: direction * scrollAmount,
+                    behavior: "smooth"
+                });
+            };
+
+            prevButton.addEventListener("click", () => scrollByOneCard(-1));
+            nextButton.addEventListener("click", () => scrollByOneCard(1));
+        });
+    </script>
+</body>
+</html>
