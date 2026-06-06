@@ -1,13 +1,3 @@
-@font-face {
-    font-family: TajamukaScript; /* set name */
-    src: url('/Fonts/tajamuka-script-font/TajamukaScript-ByW5.ttf');
-}
-@font-face {
-    font-family: Montserrat;
-    src: url('/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
-  }
-
-
 body {
     margin: 0;
     background-image: url("https://live.staticflickr.com/2307/2418544214_683cc2181a_b.jpg");
@@ -15,7 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
-    font-family: TajamukaScript;
+    font-family: 'Tajamuka Script', cursive;
 }
 
 header {
@@ -81,7 +71,7 @@ nav a {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.9rem;
-    font-family: TajamukaScript, cursive;
+    font-family: 'Tajamuka Script', cursive;
 }
 
 #language-select {
