@@ -1,9 +1,5 @@
 # Exploring Johannesburg Planning Document
 
-# 
-
-**k**
-
 
 _What location are you building this guide for, and why did you choose it?_
     I am building this guide for Johannesburg, ZA because I have been to Cape Town, ZA and loved it. While there, I heard from multiple who were either from Johannesburg or have been there that Johannesburg was an amazing experience that I should indulge in, so I would love to research the area and provide a comprehensive guide on what to do while you're there.
