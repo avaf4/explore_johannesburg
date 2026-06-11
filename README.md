@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Unit Assignment: Globetrotter
 
 Submitted by: Ava Flanigan
@@ -98,9 +96,9 @@ If I had more time, I would make my search feauture usable and I would fully imp
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-In my demo, I sounded confident and sure of my project and was easily able to highlight the special feautures included in my website as well as the purpose of me selecting Johannesburh, ZA. Something that one of my peers, Anny, did that love was her implementation of layers in her header. I think it adds a lot to the user experience and makes the site more attractive.
+In my demo, I sounded confident and sure of my project and was easily able to highlight the special feautures included in my website as well as the purpose of me selecting Johannesburg, ZA. Something that one of my peers, Anny, did that love was her implementation of layers in her header. I think it adds a lot to the user experience and makes the site more attractive.
 
 
-### Shout out
+### Shoutout
 
-Shout out to Davarsh, Danny, Alessandro, and all my peers for being a great help and motivation!
+Shout out to Devarsh, Danny, Alessandro, and all my peers for being a great help and motivation!
