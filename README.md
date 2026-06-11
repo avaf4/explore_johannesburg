@@ -92,11 +92,11 @@ The topics discussed in the labs helped me prepare for the completion of the ass
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-If I had more time, I would make my search feauture usable and I would fully implement the translation aspect to the wesbite. I would also include more links and indepth explanations of Johannesburg's history and how Townships help shape the unique culture of the space. I would also make the website more attractice for mobile devices, shrinking the search bar to a search icon.
+If I had more time, I would make my search feauture usable and I would fully implement the translation aspect to the wesbite. I would also include more links and indepth explanations of Johannesburg's history and how Townships help shape the unique culture of the space. I would also make the website more attractive for mobile devices, shrinking the search bar to a search icon.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-In my demo, I sounded confident and sure of my project and was easily able to highlight the special feautures included in my website as well as the purpose of me selecting Johannesburg, ZA. Something that one of my peers, Anny, did that love was her implementation of layers in her header. I think it adds a lot to the user experience and makes the site more attractive.
+In my demo, I sounded confident and sure of my project and was easily able to highlight the special feautures included in my website as well as the purpose of me selecting Johannesburg, ZA. Something that one of my peers, Anny, did that I love was her implementation of layers in her header. I think it adds a lot to the user experience and makes the site more attractive.
 
 
 ### Shoutout
