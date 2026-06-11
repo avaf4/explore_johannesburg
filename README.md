@@ -69,13 +69,13 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://avaf4.gith
 - [X] **Interactive Navigation**
   - [X] Implement a dropdown menu where at least one menu item includes a nested dropdown menu to access additional categories or sub-pages.
 
-- [ ]**Travel Newsletter Form**
+- [ ] **Travel Newsletter Form**
   - [ ] Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
   - [ ] *Note*: You do not have to collect and save the data submitted using the form. 
 
-- [ ] **Deployment**
-  - [ ] Deploy your website so it's accessible to the public outside of your local machine. 
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please film yourself using your deployed URL with the URL visible in your video. 
+- [X] **Deployment**
+  - [X] Deploy your website so it's accessible to the public outside of your local machine. 
+  - [X] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please film yourself using your deployed URL with the URL visible in your video. 
 
 - [X] **Custom Styling**: Add a personal touch to your site's design.
   - [X] Integrate at least one custom font using Google Fonts to add personality to your site.
